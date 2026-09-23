@@ -6,7 +6,7 @@ import yaml
 from collections import Counter
 from beets.plugins import BeetsPlugin
 from beets.dbcore import types
-from beets.dbcore.query import FixedFieldSort
+from beets.dbcore.sort import FixedFieldSort
 from beets.library import Item, parse_query_parts
 from beets.ui import Subcommand, decargs
 from beets import config
